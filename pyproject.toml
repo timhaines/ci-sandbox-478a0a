@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ci-sandbox-harness-timhaines"
+version = "0.0.1"
+description = "Build harness fixture. Not a real library."
+license = { text = "MIT" }
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+packages = ["ci_sandbox_fixture"]
