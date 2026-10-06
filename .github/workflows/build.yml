@@ -12,7 +12,6 @@ permissions:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    environment: publish   # the per-repo control; branch policy set by the driver
     permissions:
       id-token: write # OIDC trusted publishing
     steps:
